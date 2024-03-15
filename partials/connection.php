@@ -11,7 +11,7 @@ $conn = mysqli_connect($host, $user, $password, $database);
 // Проверка успешности подключения к базе данных.
 if (!$conn) {
     // Вывод сообщения об ошибке, если подключение не удалось.
-    die("Connection failed: ".mysqli_connect_error());
+    die("Connection failed: " . mysqli_connect_error());
 }
 
 // В этой точке скрипт имеет установленное соединение с базой данных.
